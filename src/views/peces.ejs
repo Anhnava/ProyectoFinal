@@ -1,0 +1,231 @@
+<!-- <%- layout('layouts/main') %> -->
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body style="background-image: url(https://images.unsplash.com/photo-1604878434304-b0b9f121ae98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80);">
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Peces</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Otras</a>
+  <a href="#productos" onclick="w3_close()" class="w3-bar-item w3-button">Productos</a>
+</nav>
+
+<!-- Top menu -->
+
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">&#9776;</div>
+    <a class="nav-link" href="/profile">Perfil</a>
+    <div class="nav-item">
+      <div class="w3-center">ACUARIO BLOOP</div>
+    </div>
+  </div>
+</div>
+
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://cdn.shopify.com/s/files/1/0844/6695/products/Pterophyllum_Scalare_1024x1024_b436c9cf-9719-42f9-a430-9a054c452bad_grande.jpg?v=1494300862" alt="Pez_Angel" style="width:100%">
+      <h3><b>Pez ángel</b></h3>
+      <h4><b>$ 300.00</b></h4>
+      <p><b>Estos peces rayados deben su nombre a su movimiento suave, como de un ángel flotando en el agua.</b></p>
+      <p><b>No tienen problemas con otros peces a no ser que puedan comérselos de una vez. Aunque pueden comer alimentos secos, prefieren los vivos.</b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://animalespeligroextincion.org/wp-content/uploads/2019/03/pez-betta.jpg" alt="Betta" style="width:100%">
+      <h3><b>Betta</b></h3>
+      <h4><b>$ 85.00</b></h4>
+      <p><b>Los peces betta eran usados antiguamente por el pueblo thai para hacer luchas de peces y se les conocía por el apelativo de peces luchadores siameses.</b></p>
+      <p><b>Disponibles en una gran variedad de colores y tipos de aletas, los betta resultan peces muy elegantes. Son fáciles de cuidar.</b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://cdn.shopify.com/s/files/1/0844/6695/products/COLIS_grande.jpg?v=1485658503" alt="Gurami" style="width:100%">
+      <h3><b>Gourami</b></h3>
+      <h4><b>$ 500.00</b></h4>
+      <p><b>Los peces gourami son coloridos, activos, resistentes y fáciles de cuidar. Los hay de muchas combinaciones de color, todas de gran belleza.</b></p>
+      <p><b>Algunos gourami, como el de la imagen, tienen una especie de bigotes que le sirven de sensores.</b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/242/404/products/platy-mickey-21-d6aaf078d4a7ce88e415930405291377-640-0.jpg" alt="Platy" style="width:100%">
+      <h3><b>Platy</b></h3>
+      <h4><b>$ 55.00</b></h4>
+      <p><b>Los peces platy son muy vistosos, activos y pacíficos, por eso es muy común encontrarlos en los acuarios.</b></p>
+      <p><b>Le gusta el alimento vivo pero también comen alimento seco y vegetales.</b></p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://www.nascapers.es/wp-content/uploads/2020/03/rasbora-brigittae-1.jpg" alt="Rasbora" style="width:100%">
+      <h3><b>Rasbora</b></h3>
+      <h4><b>$ 50.00 x 3</b></h4>
+      <p><b>Rasbora A estos peces les gusta vivir en grupos no demasiado numerosos. Una curiosidad sobre ellos es que se comen sus propios huevos. </b></p>
+      <p><b>El macho va siguiendo a la hembra cargada de huevos y conforme esta va depositándolos entre las plantas, él se los va comiendo.</b></p>
+      <p><b>El macho rasbora tiene un cuerpo más esbelto que el de la hembra y la típica marca triangular que posee en el lateral es más nítida en él que en ella.</b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.pinimg.com/originals/0b/f8/01/0bf801f60d0de2eead15263c16533472.jpg" alt="Guppy" style="width:100%">
+      <h3><b>Guppy</b></h3>
+      <h4><b>$ 100.00 x 4</b></h4>
+      <p><b>Debe su nombre a su descubridor Mr. Lechmere Guppy. Se trata de uno de los peces más populares por su belleza y su facilidad para mantener y reproducir. </b></p>
+      <p><b>Los machos son de colores más variados que las hembras. Tienen crías cada mes.</b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="http://mascotafiel.com/wp-content/uploads/2017/05/Peces-Tetras-1_opt.jpg" alt="Tetra" style="width:100%">
+      <h3><b>Tetra</b></h3>
+      <h4><b>$ 150.00</b></h4>
+      <p><b>Los peces tetra son muy coloridos, despiertos y resistentes. No les gusta vivir solos o con pocos de su especie.</b></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.pecesdeaguadulce.net/wp-content/uploads/2018/05/Pez-disco-azul-foto-e1527761664707.jpg" alt="Disco" style="width:100%">
+      <h3><b>Disco</b></h3>
+      <h4><b>$ 2500.00</b></h4>
+      <p><b>Los peces disco llaman la atención por su potente colorido y marcas aunque también se pueden encontrar en un solo tono o de un blanco puro.</b></p>
+    </div>
+  </div>
+
+  
+  
+  <hr id="about">
+
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-third">
+      <img src="https://www.mascotadomestica.com/ezoimgfmt/i0.wp.com/www.mascotadomestica.com/wp-content/uploads/2014/11/Hamster-Dorado-de-Pelo-Corto.jpg?resize=448%2C336&ssl=1&ezimgfmt=rs:372x279/rscb1/ng:webp/ngcb1" alt="Popsicle" style="width:100%">
+      <h3><b>Hamster Dorado</b></h3>
+      <h4><b>$ 90.00</b></h4>
+      <p><b>El hámster sirio es el más común en las casas y los más adecuados para estar con  niños, ya que son grandes y con pelo largo (especialmente los machos).</b> </p>
+      <p><b>Su color original es dorado, pero hoy en día existen con pelajes diferentes. Si comparten jaula con otros de su especie se pueden volver algo agresivos, así que mejor elige solo uno. </b></p>
+      <p><b>Este tipo de hámster vive unos 3 años y mide 15 cm aproximadamente.</b></p>
+    </div>
+    <div class="w3-third">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmvYN0HWX5x3uGkIVSIqfkrI7YL2g9EKf2Fg&usqp=CAU" alt="Salmon" style="width:100%">
+      <h3><b>Tortuga Orejas Rojas</b></h3>
+      <h4><b>$ 75.00</b></h4>
+      <p><b>Originaria de la región de Centroamérica, la tortuga de orejas rojas, también conocida como galápago de Florida o tortuga elegante, se distingue por la presencia de dos manchas rojas detrás de sus ojos, a ambos lados de la cabeza</b></p>
+      <p><b>Este quelonio omnívoro suele medir entre 12 y 20 cm, aunque algunos ejemplares alcanzan los 30-40 cm de longitud. La tortuga de orejas rojas hembra es ligeramente más grande que el macho.</b></p>
+    </div>
+    <div class="w3-third">
+      <img src="https://www.tiendanimal.es/articulos/wp-content/uploads/2020/03/cobaya-sobre-heno-1200x900.jpg" alt="Sandwich" style="width:100%">
+      <h3><b>Cobaya</b></h3>
+      <h4><b>$ 120.00</b></h4>
+      <p><b>La cobaya es un roedor muy acostumbrado a vivir como animal de compañía. Su carácter simpático y dócil ha hecho que sea una de las mascotas preferidas en las familias con niños.</b></p>
+    </div>
+  </div>
+
+  <hr id="productos">
+
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://m.media-amazon.com/images/I/71xotUGEKWL._AC_SX466_.jpg" alt="Pecera" style="width:100%">
+      <h3><b>Pecera</b></h3>
+      <h4><b>$ 500.00</b></h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.ibercan.net/uploads/categorias/4/imagenes/Alimentos%20para%20peces.jpg" alt="Alimento peces" style="width:100%">
+      <h3><b>Alimento para peces</b></h3>
+      <h4><b>$ 40.00 para peces comunes</b></h4>
+      <h4><b>$ 100.00 para peces tropicales</b></h4>
+      <h4><b>$ 175.00 para peces especificos</b></h4>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="https://comidaparatortugas.com/wp-content/uploads/2020/11/comida-para-tortugas-de-agua-adultas-mas-de-15-cm-zoomed-maintenance.jpg" alt="Alimento tortuga" style="width:100%">
+      <h3><b>Alimento para tortuga</b></h3>
+      <h4><b>$ 150.00</b></h4>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://m.media-amazon.com/images/I/713-R+-9hgS._AC_SX425_.jpg" alt="Bomba de oxigeno" style="width:100%">
+      <h3><b>Bomba de Oxigeno</b></h3>
+      <h4><b>$ 170.00</b></h4>
+    </div>
+  </div>
+  
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-third">
+      <img src="https://i.ebayimg.com/images/g/HW4AAOSwKVxg5vwJ/s-l300.jpg" alt="Red de Pecera" style="width:100%">
+      <h3><b>Red de Pecera</b></h3>
+      <h4><b>$ 50.00</b></h4>
+    </div>
+    <div class="w3-third">
+      <img src="https://cuajito-s-corner.webnode.es/_files/200000018-a0c8ca1c35/Imagen5.png" alt="Acondicionadores" style="width:100%">
+      <h3><b>Acondicionadores</b></h3>
+      <h4><b>$ 60.00 </b></h4>
+      
+    </div>
+    <div class="w3-third">
+      <img src="https://static.maskokotas.com/media/11/photos/products/045204/45204-toutuguera_1_g.PNG" alt="Pecera tortuga" style="width:100%">
+      <h3><b>Pecera para tortuga</b></h3>
+      <h4><b>$ 170.00</b></h4>
+    </div>
+  
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Contactanos</h3>
+      <p>Loma Bonita #10 Col. San Juan ll</p>
+      <p>Yuriria Guanajuato</p>
+      <p>Telefono 4451671999</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOGS DE BIOLOGIA MARINA Y MASCOTAS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQotHoKQ9gk3xSFqHvoxb5Zuz20aFSyNLmPdw&usqp=CAU" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">OceanoSeguro</span><br>
+          <span>Conoce todo acerca de la biologia marina</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://png.pngtree.com/png-clipart/20190916/original/pngtree-pet-icon-png-image_4584897.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">CuidatuMascota</span><br>
+          <span>Aprende lo necesario para un buen cuidado</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Agua</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Crustaceos</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Vida</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Mascotas</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Mar</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Azul</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Grande</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Oceano</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Arena</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Extenso</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fondo</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
